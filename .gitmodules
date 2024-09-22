@@ -18,7 +18,7 @@
 	url = ../../OpenEmu/Mednafen-Core.git
 [submodule "Mupen64Plus"]
 	path = Mupen64Plus
-	url = ../../OpenEmu/Mupen64Plus-Core.git
+	url = https://github.com/Azyzraissi/Mupen64Plus-Core.git
 [submodule "Nestopia"]
 	path = Nestopia
 	url = ../../OpenEmu/Nestopia-Core.git
@@ -30,7 +30,7 @@
 	url = ../../OpenEmu/picodrive.git
 [submodule "VecXGL"]
 	path = VecXGL
-	url = ../../OpenEmu/VecXGL-Core.git
+	url = https://github.com/Azyzraissi/VecXGL-Core.git
 [submodule "ProSystem"]
 	path = ProSystem
 	url = ../../OpenEmu/ProSystem-Core.git
