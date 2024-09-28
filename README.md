@@ -1,47 +1,56 @@
-OpenEmu
-=======
+<div align="center"><img src="https://github.com/user-attachments/assets/633f929e-947b-4526-a162-83869c1c24f4" width="128"></div>
 
-![alt text](http://openemu.org/img/intro-md.png "OpenEmu Screenshot")
 
-OpenEmu is an open-source project whose purpose is to bring macOS game emulation into the realm of first-class citizenship. The project leverages modern macOS technologies, such as Cocoa, Metal, Core Animation, and other third-party libraries. One third-party library example is Sparkle, which is used for auto-updating. OpenEmu uses a modular architecture, allowing for game-engine plugins, allowing OpenEmu to support a host of different emulation engines and back ends while retaining the familiar macOS native front end.
+# OpenEmu for Apple Silicon
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcomed-brightgreen.svg?style=flat)](https://github.com/Azyzraissi/OpenEmu/pulls)
+[![Threads](https://img.shields.io/badge/Azyz.raw-000000?style=social&logo=Threads&logoColor=black)](https://www.threads.net/azyz.raw)
 
-Currently, OpenEmu can load the following game engines as plugins:
+![Screenshots](https://github.com/user-attachments/assets/0a1cc41b-05da-4e22-bfb3-a9ab9f332629)
 
-* Atari 2600 ([Stella](https://github.com/stella-emu/stella))
-* Atari 5200 ([Atari800](https://github.com/atari800/atari800))
-* Atari 7800 ([ProSystem](https://gitlab.com/jgemu/prosystem))
-* Atari Lynx ([Mednafen](https://mednafen.github.io))
-* ColecoVision ([CrabEmu](https://sourceforge.net/projects/crabemu/))
-* Famicom Disk System ([Nestopia](https://gitlab.com/jgemu/nestopia))
-* Game Boy / Game Boy Color ([Gambatte](https://gitlab.com/jgemu/gambatte))
-* Game Boy Advance ([mGBA](https://github.com/mgba-emu/mgba))
-* GameCube ([Dolphin](https://github.com/dolphin-emu/dolphin))
-* Game Gear ([Genesis Plus](https://github.com/ekeeke/Genesis-Plus-GX))
-* Intellivision ([Bliss](https://github.com/jeremiah-sypult/BlissEmu))
-* NeoGeo Pocket ([Mednafen](https://mednafen.github.io))
-* Nintendo (NES) / Famicom ([FCEUX](https://github.com/TASEmulators/fceux), [Nestopia](https://gitlab.com/jgemu/nestopia))
-* Nintendo 64 ([Mupen64Plus](https://github.com/mupen64plus))
-* Nintendo DS ([DeSmuME](https://github.com/TASEmulators/desmume))
-* Odyssey² / Videopac+ ([O2EM](https://sourceforge.net/projects/o2em/))
-* PC-FX ([Mednafen](https://mednafen.github.io))
-* SG-1000 ([Genesis Plus](https://github.com/ekeeke/Genesis-Plus-GX))
-* Sega 32X ([picodrive](https://github.com/notaz/picodrive))
-* Sega CD / Mega CD ([Genesis Plus](https://github.com/ekeeke/Genesis-Plus-GX))
-* Sega Genesis / Mega Drive ([Genesis Plus](https://github.com/ekeeke/Genesis-Plus-GX))
-* Sega Master System ([Genesis Plus](https://github.com/ekeeke/Genesis-Plus-GX))
-* Sega Saturn ([Mednafen](https://mednafen.github.io))
-* Sony PSP ([PPSSPP](https://github.com/hrydgard/ppsspp))
-* Sony PlayStation ([Mednafen](https://mednafen.github.io))
-* Super Nintendo (SNES) ([BSNES](https://github.com/bsnes-emu/bsnes), [Snes9x](https://github.com/snes9xgit/snes9x))
-* TurboGrafx-16 / PC Engine ([Mednafen](https://mednafen.github.io))
-* TurboGrafx-CD / PCE-CD ([Mednafen](https://mednafen.github.io))
-* Vectrex ([VecXGL](https://github.com/james7780/VecXGL))
-* Virtual Boy ([Mednafen](https://mednafen.github.io))
-* WonderSwan ([Mednafen](https://mednafen.github.io))
 
-Minimum Requirements
---------------------
+**OpenEmu for Apple Silicon** is a fork of **OpenEmu 2.4.1** optimized for Apple Silicon Macs. This project is born out of admiration for the original project and a personal will to experiment, tinker and run my favorite softwares faster, smoother, and more efficiently on my Mac. As a result, this build offers significant improvements in both speed and power resource consumption. 
 
-macOS Mojave 10.14.4
+This project demonstrates that OpenEmu can run natively on ARM architecture without rewriting its whole codebase, showcasing the potential for further optimizations going further.
 
-Building the default branch requires Xcode 14.3 and macOS Ventura.
+## What's New
+
+- **New Icon** based on the original OpenEmu icon.
+- **Significant Faster Launch Times** from my own experience compared with the Intel based officiel OpenEmu build. 
+- **Enhanced Performance:** Reduced battery and resource consumption, ensuring a smoother and more efficient gaming experience.
+- **Proof of Concept:** Demonstrates that OpenEmu can run natively on ARM architecture and Apple Silicon chips, paving the way for future optimizations and developments.
+
+## How to use
+
+- Downnload the latest release of OpenEmu for Apple Silicon 
+- Copy OpenEmu.app to ~/Applications
+- Download your favorite Cores or the All-in-One pack from the Releases page
+- Go to ~/Library/Application Support/OpenEmu/Cores and place your Core(s) there.
+  The ~/Library folder is located in the root of you Macintosh HD partition. You can display hidden folders with ⌘+Shift+;
+
+## Known Issues
+
+Currently all OpenEmu cores work perfectly except :
+
+* Atari 5200
+* Sony PSP 
+* GameCube 
+* Nintendo DS 
+
+Cores needs to be places manually in ~/Library/Application Support/OpenEmu/Cores
+
+OpenEmu may crash when you stop an emulation, but don’t worry—it relaucnhes so fast, you’ll barely have time to blink. (I'm so proud of this achieved speed)
+
+## Contributing
+
+Contributions from anyone interested in enhancing OpenEmu on Apple Silicon is welcomed! If encounter any issues or have ideas for improvements, please feel free to open a [pull request]((https://github.com/Azyzraissi/OpenEmu/pulls)) and help upgrade this build.
+I am not an advanced developer and I made this build out of passion and curiosity.
+A huge shoutout to my friend [Adam Solloway](https://github.com/a-soll), who believed in me from the start and had complete confidence that I could bring this build to life—despite my complete lack of Swift or Xcode knowledge.
+
+## Connect with Me
+
+[![Threads](https://img.shields.io/badge/Azyz.raw-000000?style=social&logo=Threads&logoColor=black)](https://www.threads.net/azyz.raw)
+![Github](https://img.shields.io/github/followers/azyzraissi.svg?style=social&label=GitHub&maxAge=2592000)
+
+If you like what I did consider buying me a coffee : 
+
+<a href='https://ko-fi.com/J3J110P5LI' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi3.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
