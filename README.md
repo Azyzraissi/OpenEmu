@@ -21,9 +21,9 @@ This project demonstrates that OpenEmu can run natively on ARM architecture with
 
 ## How to use
 
-- Downnload the latest release of OpenEmu for Apple Silicon 
-- Copy OpenEmu.app to ~/Applications
-- Download your favorite Cores or the All-in-One pack from the Releases page
+- Downnload [the latest release of OpenEmu for Apple Silicon](https://github.com/Azyzraissi/OpenEmu/releases) 
+- Unzip and Copy OpenEmu.app to ~/Applications
+- Download Cores from the [Releases](https://github.com/Azyzraissi/OpenEmu/releases) page
 - Go to ~/Library/Application Support/OpenEmu/Cores and place your Core(s) there.
   The ~/Library folder is located in the root of you Macintosh HD partition. You can display hidden folders with ⌘+Shift+;
 
@@ -33,12 +33,39 @@ Currently all OpenEmu cores work perfectly except :
 
 * Atari 5200
 * Sony PSP 
-* GameCube 
+* Nintendo GameCube 
 * Nintendo DS 
 
 Cores needs to be places manually in ~/Library/Application Support/OpenEmu/Cores
 
 OpenEmu may crash when you stop an emulation, but don’t worry—it relaucnhes so fast, you’ll barely have time to blink. (I'm so proud of this achieved speed)
+
+## Troubleshooting
+- "OpenEmu.app" Not Opened.
+  
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0f242030-ee9e-4e50-9b93-d6b9acbe96aa" height="30%" />
+</p>
+
+From System Settings - Privacy & Security, find **"OpenEmu.app" was blocked to protect your Mac** and click **Open Anyway**
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/3d22263d-0077-431e-a713-e22cd25d16f6" width="45%" />
+
+
+ - OpenEmu asking for Input Monitoring Permission  
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/8a8fae57-55a6-47dd-8d0d-1000e53a7ab0" />
+</p>
+
+From System Settings - Privacy & Security - Input Monitoring, select OpenEmu, remove it and add it again manually. 
+
+<p align="center">
+  1.<img src="https://github.com/user-attachments/assets/7126e2c5-565c-4ced-a1cc-5f3c7278721e" width="45%" />
+  2.<img src="https://github.com/user-attachments/assets/2dd737d4-6dd2-440b-98d2-bdb9b526268e" width="45%" />
+</p>
+
 
 ## Contributing
 
