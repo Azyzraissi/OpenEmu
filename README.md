@@ -59,11 +59,13 @@ From System Settings - Privacy & Security, find **"OpenEmu.app" was blocked to p
   <img src="https://github.com/user-attachments/assets/8a8fae57-55a6-47dd-8d0d-1000e53a7ab0" />
 </p>
 
-From System Settings - Privacy & Security - Input Monitoring, select OpenEmu, remove it and add it again manually. 
+1. Close OpenEmu completly.
+2. From System Settings - Privacy & Security - Input Monitoring, select OpenEmu, remove it.
+3. Relaunch OpenEmu and let it ask for Input Perissmion again. If you can't see OpenEmu under Input Monitoring, add it again manually.
 
 <p align="center">
-  1.<img src="https://github.com/user-attachments/assets/7126e2c5-565c-4ced-a1cc-5f3c7278721e" width="45%" />
-  2.<img src="https://github.com/user-attachments/assets/2dd737d4-6dd2-440b-98d2-bdb9b526268e" width="45%" />
+  <img src="https://github.com/user-attachments/assets/7126e2c5-565c-4ced-a1cc-5f3c7278721e" width="45%" />
+  <img src="https://github.com/user-attachments/assets/2dd737d4-6dd2-440b-98d2-bdb9b526268e" width="45%" />
 </p>
 
 
