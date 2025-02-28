@@ -19,9 +19,14 @@ This project demonstrates that OpenEmu can run natively on ARM architecture with
 - **Enhanced Performance:** Reduced battery and resource consumption, ensuring a smoother and more efficient gaming experience.
 - **Proof of Concept:** Demonstrates that OpenEmu can run natively on ARM architecture and Apple Silicon chips, paving the way for future optimizations and developments.
 
-## How to use
+## Installation
+Homebrew (includes all cores):
+- `brew tap catskull/homebrew https://github.com/catskull/homebrew`
+- `brew update`
+- `brew install openemu-arm`
 
-- Downnload [the latest release of OpenEmu for Apple Silicon](https://github.com/Azyzraissi/OpenEmu/releases) 
+Manual:
+- Download [the latest release of OpenEmu for Apple Silicon](https://github.com/Azyzraissi/OpenEmu/releases) 
 - Unzip and Copy OpenEmu.app to ~/Applications
 - Download Cores from the [Releases](https://github.com/Azyzraissi/OpenEmu/releases) page
 - Go to ~/Library/Application Support/OpenEmu/Cores and place your Core(s) there.
