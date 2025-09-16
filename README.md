@@ -21,7 +21,7 @@ This project demonstrates that OpenEmu can run natively on ARM architecture with
 
 ## How to use
 
-- Downnload [the latest release of OpenEmu for Apple Silicon](https://github.com/Azyzraissi/OpenEmu/releases) 
+- Download [the latest release of OpenEmu for Apple Silicon](https://github.com/Azyzraissi/OpenEmu/releases) 
 - Unzip and Copy OpenEmu.app to ~/Applications
 - Download Cores from the [Releases](https://github.com/Azyzraissi/OpenEmu/releases) page
 - Go to ~/Library/Application Support/OpenEmu/Cores and place your Core(s) there.
@@ -41,6 +41,7 @@ Cores needs to be places manually in ~/Library/Application Support/OpenEmu/Cores
 OpenEmu may crash when you stop an emulation, but don’t worry—it relaucnhes so fast, you’ll barely have time to blink. (I'm so proud of this achieved speed)
 
 ## Troubleshooting
+
 - "OpenEmu.app" Not Opened.
   
 <p align="center">
